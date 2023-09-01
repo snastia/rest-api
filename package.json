@@ -18,6 +18,7 @@
     "url": "https://github.com/snastia/rest-api/issues"
   },
   "dependencies": {
+    "lodash.debounce": "^4.0.8",
     "modern-normalize": "^1.1.0",
     "parcel-transformer-hbs": "^1.0.4"
   },
