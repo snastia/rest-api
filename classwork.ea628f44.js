@@ -1,0 +1,2 @@
+const e={headers:{"X-Api-Key":"6badf61c853b48b49ab0b0fe13b0c3b9"}};function t(t){return fetch(`https://newsapi.org/v2/everything?q=${t}&pageSize=10&page=1`,e).then((e=>e.json()))}let n="";const r=document.querySelector(".js-search-form"),c=document.querySelector("[data-action='load-more']");r.addEventListener("submit",(function(e){e.preventDefault(),n=e.currentTarget.elements.query.value,t(n).then((e=>console.log(e)))})),c.addEventListener("click",(function(){t(n)}));
+//# sourceMappingURL=classwork.ea628f44.js.map
