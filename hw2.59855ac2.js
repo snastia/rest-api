@@ -1,0 +1,2 @@
+const e=document.querySelector(".js-search-form");document.querySelector(".js-img-container"),document.querySelector('[data-action="load-more"]');e.addEventListener("submit",(function(e){e.preventDefault();(function(e,t=1){return fetch(`https://pixabay.com/api/?key=39206959-7c7ea883eefaa4f867414a07f&q=${e}&page=${t}&per_page=20`).then((e=>{e.json()})).then((e=>e.hits))})(e.currentTarget.elements.query.value).then((e=>{console.log(e)}))}));
+//# sourceMappingURL=hw2.59855ac2.js.map
